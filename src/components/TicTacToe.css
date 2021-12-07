@@ -1,0 +1,53 @@
+body{
+    font-family: 'Indie Flower', cursive;
+    background: linear-gradient(to right, #3e5151, #decba4);
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+table td {
+	/* border: 1px solid grey; */
+	width: 100px;
+	height: 100px;
+}
+
+table td{
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.TurnDetail, p{
+    font-size: 2rem;
+    color: crimson;
+    font-weight: 600;
+}
+
+.heading{
+    font-size: 3rem;
+    text-decoration: underline;
+    /* font-family: 'Itim',cursive; */
+}
+ 
+#btn{
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-family: 'Itim',cursive;
+    font-size: 1.5rem;
+}
+
+#btn:hover{
+    background-color: black;
+    transition: .8s ease;
+    color: white;
+    box-shadow: 1px 1px 5px 2px white;
+
+}
